@@ -1,0 +1,30 @@
+{
+    "name": "webarq/lang",
+	"description": "webarq cms lang package",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Daniel Simangunsong",
+			"email": "simangunsong.binduraja@gmail.com"
+		}
+	],
+	"repositories": [
+		{
+            "type": "vcs",
+            "url": "gitwebarq@webarq-laravel-lang.dev.webarq.net:~/git/webarq-laravel-lang.git"
+        },
+		{
+		  "type": "vcs",
+	      "version": "dev-master",
+		  "url": "git@dev.webarq.info:webarq/vendor-lang-l.5.3.git"
+		}
+	],
+    "autoload": {
+        "psr-4" : {
+            "Webarq\\Lang\\" : "src"
+        }
+    },
+	"require": {
+		"webarq/core": "dev-master"
+	}
+}
