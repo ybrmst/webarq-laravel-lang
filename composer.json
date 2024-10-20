@@ -10,13 +10,9 @@
 	],
 	"repositories": [
 		{
-            "type": "vcs",
-            "url": "gitwebarq@webarq-laravel-lang.dev.webarq.net:~/git/webarq-laravel-lang.git"
-        },
-		{
-		  "type": "vcs",
-	      "version": "dev-master",
-		  "url": "git@dev.webarq.info:webarq/vendor-lang-l.5.3.git"
+		  "type": "git",
+			"version": "dev-master",
+		  "url": "git@github.com:ybrmst/webarq-laravel-core.git"
 		}
 	],
     "autoload": {
@@ -26,5 +22,10 @@
     },
 	"require": {
 		"webarq/core": "dev-master"
-	}
+	},
+    "config": {
+        "allow-plugins": {
+            "kylekatarnls/update-helper": true
+        }
+    }
 }
